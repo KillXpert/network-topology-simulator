@@ -322,7 +322,7 @@ with col1:
 
     # end generate
     else:
-    st.info("Change parameters and click **Generate Topology** when ready.")
+        st.info("Change parameters and click **Generate Topology** when ready.")
 
 with col2:
     st.subheader("About & Developers")
