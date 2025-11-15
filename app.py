@@ -321,7 +321,7 @@ with col1:
         st.download_button("📥 Download Detailed Report (.docx)", data=docx_buf, file_name="network_topology_report.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
 
     # end generate
-else:
+    else:
     st.info("Change parameters and click **Generate Topology** when ready.")
 
 with col2:
